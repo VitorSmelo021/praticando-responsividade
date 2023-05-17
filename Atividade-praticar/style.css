@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-size: 50px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center ;
+}
+#saturno{
+    width: 500px;
+     
+}
+@media (max-width:800px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    }
+    .img{
+        width: 250px;
+        height: 250px;
+        
+    }
+
+    #saturno{
+        width: 500px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width:1200px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    }
+    .img{
+        width: 350px;
+        height: 350px;
+        
+    }
+    section{
+        display: flex;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width:350px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+    .img{
+        width: 200px;
+        height: 200px;     
+    }
+    #saturno{
+        width: 300px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        
+    }
+}
+
+
+@media (max-width:200px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+        
+    }
+    #saturno{
+        width: 150px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:100px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+    }
+    .img{
+        width: 60px;
+        height: 60px;
+        
+    }
+
+    #saturno{
+        width: 80px;
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        
+    }
+}
+
+@media (max-width: 60px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        font-size: 8px;
+        color: rgb(255, 255, 255);
+    }
+    .img{
+        width: 60px;
+        height: 60px;
+        
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        
+    }
+}
